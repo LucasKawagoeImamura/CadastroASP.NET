@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroASP.NET", "CadastroASP.NET\CadastroASP.NET.csproj", "{F76846C6-C412-4CA8-8B6B-E85502771509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F76846C6-C412-4CA8-8B6B-E85502771509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76846C6-C412-4CA8-8B6B-E85502771509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76846C6-C412-4CA8-8B6B-E85502771509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76846C6-C412-4CA8-8B6B-E85502771509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1615552-1717-40F2-B4E7-0BE874916449}
+	EndGlobalSection
+EndGlobal
