@@ -1,0 +1,65 @@
+﻿
+@{
+    @model IEnumerable<CadastroASP.NET.Models.Produto>
+    <link href="~/css/listarcli.css" rel="stylesheet" />
+    <p>
+        <a asp-controller="Produto" asp-action="CadastrarProduto" class="btn btn-primary">Cadastra Produto</a>
+    </p>
+    <table class="table custom-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Preco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantidade)
+                </th>
+                <th class="text-center">Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descricao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preco)
+                    </td>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.Quantidade)
+                    </th>
+                    <td class="text-center">
+                        <a asp-controller="Produto" asp-action="EditarProduto" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+                        <span>|</span>
+                        <a asp-controller="Produto" asp-action="ExcluirProduto" asp-route-id="@item.Id"
+                           onclick="return confirm('Deseja realmente Excluir este item?');" class="btn btn-sm btn-danger">Excluir</a>
+                    </td>
+                    @*
+                <td class="text-center">
+                    @Html.ActionLink("Editar", "EditarProduto", new { id = item.Id }) |
+                    @Html.ActionLink("Excluir", "ExcluirProduto", new { id = item.Id },
+                             new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
+                </td>
+                *@
+                </tr>
+            }
+        </tbody>
+    </table>
+}
