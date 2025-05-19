@@ -1,0 +1,79 @@
+﻿.titulo-cli {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; /* Opcional: Centralizar o título */
+}
+
+h4 {
+    color: #6c757d; /* Cor do texto secundário do Bootstrap */
+    margin-bottom: 15px;
+    text-align: center; /* Opcional: Centralizar o subtítulo */
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Borda mais suave */
+}
+
+.col-md-4 {
+    margin: 0 auto; /* Centralizar o formulário em telas maiores */
+    padding: 20px;
+    border: 1px solid #dee2e6; /* Borda leve no formulário */
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Fundo claro para o formulário */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Leve sombra */
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Aumentar um pouco o espaçamento entre os campos */
+}
+
+.control-label {
+    font-weight: bold;
+    color: #495057; /* Cor do texto principal do Bootstrap */
+}
+
+.form-control {
+    border: 1px solid #ced4da; /* Borda padrão do Bootstrap */
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+    box-sizing: border-box; /* Garantir que padding e border não aumentem a largura */
+}
+
+    .form-control[readonly] {
+        background-color: #e9ecef; /* Cor de fundo para campos somente leitura */
+        opacity: 1; /* Reverter a opacidade padrão para readonly */
+    }
+
+.form-text {
+    font-size: 0.8rem;
+    color: #6c757d; /* Cor do texto muted do Bootstrap */
+}
+
+.text-danger {
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.btn-primary {
+    width: 100%; /* Ocupar a largura total do container */
+}
+
+.btn-secondary {
+    /* Estilos adicionais para o botão "Voltar" se desejar */
+}
+
+.mt-3 {
+    margin-top: 1.5rem; /* Espaçamento acima do botão "Voltar" */
+    display: block; /* Fazer o botão "Voltar" ocupar a linha inteira */
+    width: 100%; /* Ocupar a largura total */
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

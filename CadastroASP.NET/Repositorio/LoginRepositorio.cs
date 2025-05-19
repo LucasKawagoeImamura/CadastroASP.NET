@@ -1,6 +1,5 @@
 ﻿using CadastroASP.NET.Models;
 using MySql.Data.MySqlClient;
-using CadastroASP.NET.Models;
 using System.Data;
 
 

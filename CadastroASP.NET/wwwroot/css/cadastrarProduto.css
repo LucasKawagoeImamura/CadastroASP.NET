@@ -1,0 +1,27 @@
+﻿.titulo-cli {
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.col-md-4 {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #555;
+    background: #ffd800;
+    box-shadow: 2px 5px #333;
+}
+
+.form-group {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

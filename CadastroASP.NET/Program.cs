@@ -1,7 +1,11 @@
+using CadastroASP.NET.Repositorio;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<LoginRepositorio>();
+builder.Services.AddScoped<ProdutoRepositorio>();
 
 var app = builder.Build();
 
